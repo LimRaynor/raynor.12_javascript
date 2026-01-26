@@ -1,0 +1,21 @@
+문법,주요 대상,가져오는 것,중단(break),비유
+
+
+(The Classic)
+기본 for,모든 상황,인덱스 제어,O,수동 변속기 (세밀한 조작)
+
+(Modern & Easy)
+for...of,"배열, 문자열",값 (Value),O,자동 변속기 (편리함)
+
+(For Objects)
+for...in,객체,키 (Key),O,명부 조사 (이름 확인)
+
+메서드 (Functional)
+forEach,배열 전용,값 & 인덱스,X,롤러코스터 (끝까지 감)
+
+
+---
+
+function - 객체가없어도 단독으로 실행가능 (독립적)
+
+method - 객체가 있어야지만 실행가능 (객체지향적)

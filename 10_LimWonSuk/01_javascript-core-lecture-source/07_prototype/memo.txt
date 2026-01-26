@@ -1,0 +1,8 @@
+function ==  object ->  객체는 기능과 속성이있는데
+
+따로 할당하지 안호아도 함수는 기본적을 protype 프로퍼티를 갖는다
+
+---
+
+get property를 쓰자
+ MZ 하게
