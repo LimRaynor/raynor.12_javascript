@@ -61,6 +61,7 @@ console.log(str.indexOf('a', 2));   // 검색 시작 인덱스 지정
 if(str.indexOf('a') !== -1) console.log('a가 있다');
 console.log('--------------------------------');
 
+
 // String.prototype.includes
 console.log(str.includes('a'));     // 문자열에서 a 검색하여 포함 여부 반환
 console.log(str.includes('b'));     // 검색에 실패하면 false 반환
@@ -135,7 +136,7 @@ console.log(str.replace('a', 'b'));         // 검색 된 문자열이 여럿 �
 console.log(str.replace(/j/i,'Z'));         // 첫번째 인수로 정규표현식 전달
 console.log('--------------------------------');
 
-// String.prototype.split
+// String.prototype.
 // 첫번째 인수로 전달한 문자열 또는 정규식을 검색하여 문자열을 구분한 후 분리 된 각 문자열로 이루어진 배열 반환
 const str3 = 'Hello, Everyone! Nice to see you again.';
 console.log(str3.split(' '));       // 공백을 구분하여 배열로 반환

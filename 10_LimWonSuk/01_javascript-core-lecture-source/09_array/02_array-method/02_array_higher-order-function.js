@@ -40,8 +40,7 @@ numbers.forEach((item, index, array) => {
 // 반환되는 값들로만 이뤄진 새 배열을 반환하는 고차함수
 const original1 = [true, 1, 'text'];
 
-const types = original1.map(item => typeof item
-);
+const types = original1.map(item => typeof item);
 console.log("types : ", types);
 
 const original2 = ['apple', 'banana', 'cat', 'dog', 'egg'];
