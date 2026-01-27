@@ -16,5 +16,3 @@ const arr = [5, 3, 8, 1, 10, 4];
 filterRange(arr, 1, 5);
 
 console.log(arr);
-;'' +
-''
