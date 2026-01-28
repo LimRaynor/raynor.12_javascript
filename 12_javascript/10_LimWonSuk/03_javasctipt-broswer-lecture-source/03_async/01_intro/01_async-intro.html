@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>acync-intro</title>
+</head>
+<body>
+  <script>
+    function sayHello(){
+        console.log("Hello World !!");
+    }
+    // sayHello();
+
+    // 3000ms 후에 sayHello 함수를 수행 -> 비동기
+    // -> 코드가 위에서 아래로 해석 되지만
+    // 비동기 코드는 실행하라고 호출만 하고
+    // 다음 코드로 넘어감.
+    // -> 비동기 코드는 3초 후에 Hello World 실행됨
+    setTimeout(sayHello, 3000); // 3초 있다가 실행
+    console.log("test1");// 3초 기다리지않고 바로 실행됨
+    console.log("test2");
+    console.log("test3");
+  </script>
+</body>
+</html>
